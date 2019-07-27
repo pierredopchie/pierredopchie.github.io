@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'OPTIDeligne-Normal';
+    src: url('../fonts/OPTIDeligne-Normal.woff2') format('woff2'),
+        url('../fonts/OPTIDeligne-Normal.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.test {
+    font-family: 'OPTIDeligne-Normal';
+}
+
+a {
+    color:#e1a87a;
+}
