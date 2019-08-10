@@ -14,19 +14,28 @@
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'Futura LT';
+	src: url('../fonts/FuturaLT-Book.woff2') format('woff2'),
+	url('../fonts/FuturaLT-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
+/*HELPERS*/
 
 * {
     font-family: 'Montserrat', sans-serif;
 }
 
 a {
-    color:#e1a87a;
+    color : #e1a87a;
+    transition: all 1s ease-out;
 }
 
 a:hover {
     text-decoration: none;
-    color: #000000;
+    color: white;
 }
 
 /* HEADER */
@@ -34,7 +43,7 @@ a:hover {
 #header {
     background: #000;
     display: flex;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -43,6 +52,7 @@ a:hover {
     width: 100%;
     min-height: 500px;
     flex-direction: column;
+    justify-content: center;
 }
 
 .header__wrapper {
@@ -52,7 +62,6 @@ a:hover {
 
 .nav__links {
     width: 100%;
-    padding-top: 1em;
 }
 
 ul {
@@ -76,9 +85,88 @@ ul li {
 }
 
 .title h1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 span {
     font-family: 'OPTIBerling', sans-serif;
     color: white;
-    max-width: 50%;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 2em;
+}
+
+/*SECTION 1*/
+
+section#content {
+    position: relative;
+    z-index: 1;
+    padding: 5em 0;
+    background-color: #f0f0f0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+}
+
+.photo__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#city {
+    max-width: 75%;
+    height: auto;
+}
+
+.content-wrapper {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper h2 {
+	font-family: 'Futura LT', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding-bottom: 1em;
+}
+
+.content-wrapper p {
+	font-family: 'Futura LT', sans-serif;
+}
+
+/*FOOTER*/
+
+footer#footer {
+    min-height: 300px;
+    background-color: black;
+    margin-top: 5em;
+}
+
+.social-links {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-rs {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-linkedin, .fa-envelope, .fa-github {
+    color: #e1a87a;
+}
+
+.fa-linkedin:hover, .fa-envelope:hover, .fa-github:hover {
+    color: white;
 }
