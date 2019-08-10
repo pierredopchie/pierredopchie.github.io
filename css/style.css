@@ -6,12 +6,18 @@
     font-style: normal;
 }
 
-* {
-    font-family: 'Montserrat', sans-serif;
+@font-face {
+    font-family: 'OPTIBerling';
+    src: url('../fonts/OPTIBerling-Agency.woff2') format('woff2'),
+    url('../fonts/OPTIBerling-Agency.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
 }
 
-.test {
-    font-family: 'OPTIDeligne-Normal';
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -66,6 +72,13 @@ ul li {
     min-height: 300px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-family: ;
+    padding-left: 10em;
+}
+
+.title h1 {
+    font-family: 'OPTIBerling', sans-serif;
+    color: white;
+    max-width: 50%;
+    font-weight: bold;
+    font-size: 5em;
 }
