@@ -145,16 +145,15 @@ section#content {
 /*FOOTER*/
 
 footer#footer {
-    min-height: 300px;
     background-color: black;
-    margin-top: 5em;
 }
 
 .social-links {
-    min-height: 300px;
+    /*min-height: 300px;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8em 0;
 }
 
 .icons-rs {
