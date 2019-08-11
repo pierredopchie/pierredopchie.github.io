@@ -1,5 +1,9 @@
 @media screen and (min-width: 1024px)  {
 
+	.title {
+		padding-left: 10em;
+	}
+
 	.title h1 span {
 		font-size: calc(40px + (80 - 40) * ((100vw - 320px) / (1920 - 320)));;
 	}
