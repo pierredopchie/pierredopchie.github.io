@@ -1,0 +1,18 @@
+@media screen and (min-width: 1024px)  {
+
+	.title h1 span {
+		font-size: calc(40px + (80 - 40) * ((100vw - 320px) / (1920 - 320)));;
+	}
+
+	.wrapper {
+		display: grid;
+		grid-template-columns: auto 40% 30% auto;
+		grid-column-gap: 5%;
+		margin: auto;
+		max-width: 80%;
+	}
+
+	.photo__wrapper {
+		grid-column: 2;
+	}
+}
