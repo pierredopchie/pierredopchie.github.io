@@ -82,6 +82,12 @@ ul li {
     padding-right:  1em;
 }
 
+.active {
+	color: white;
+	padding-bottom: 0.5em;
+	border-bottom: solid white 1px;
+}
+
 .title {
     min-height: 300px;
     display: flex;
