@@ -1,10 +1,10 @@
-@font-face {
-    font-family: 'OPTIDeligne-Normal';
-    src: url('../fonts/OPTIDeligne-Normal.woff2') format('woff2'),
-        url('../fonts/OPTIDeligne-Normal.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
+/*@font-face {*/
+/*    font-family: 'OPTIDeligne-Normal';*/
+/*    src: url('../fonts/OPTIDeligne-Normal.woff2') format('woff2'),*/
+/*        url('../fonts/OPTIDeligne-Normal.woff') format('woff');*/
+/*    font-weight: 500;*/
+/*    font-style: normal;*/
+/*}*/
 
 @font-face {
     font-family: 'OPTIBerling';
@@ -116,8 +116,8 @@ section#content {
 }
 
 .wrapper {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: auto;
 	margin: auto;
 	max-width: 80%;
 }
