@@ -55,7 +55,7 @@ a:hover {
     z-index: 20;
     margin: 0 auto;
     width: 100%;
-    min-height: 500px;
+    min-height: 90px;
     flex-direction: column;
     justify-content: center;
 }
@@ -92,21 +92,19 @@ ul li {
 }
 
 .title {
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-    padding-left: 3em;
+    display: none;
 }
 
-.title h1 {
-    display: flex;
-    flex-direction: column;
+button.navbar-toggler {
+	display: flex;
+	align-items: center;
 }
 
-.title h1 span {
-    font-family: 'OPTIBerling', sans-serif;
-    color: white;
-    font-weight: bold;
+.navbar-toggler p {
+	color: #e1a87a;
+	text-transform: uppercase;
+	margin-top: 1rem;
+	padding-left: 1em;
 }
 
 /*SECTION 1*/
