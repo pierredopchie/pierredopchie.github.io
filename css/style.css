@@ -120,7 +120,7 @@ section#content {
 	display: grid;
 	grid-template-columns: auto;
 	margin: auto;
-	max-width: 80%;
+	max-width: 100%;
 }
 
 .photo__wrapper {
