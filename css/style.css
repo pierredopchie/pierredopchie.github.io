@@ -29,10 +29,6 @@ body {
 
 /*HELPERS*/
 
-* {
-    font-family: 'Montserrat', sans-serif;
-}
-
 a {
     color : #e1a87a;
     transition: all 1s ease-out;

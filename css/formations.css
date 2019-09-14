@@ -1,5 +1,9 @@
 /*SECTION*/
 
+.formations__wrapper > * {
+	font-family: 'Futura LT', sans-serif;
+}
+
 .formations__wrapper {
 	padding: 6em 0;
 	max-width: 80%;
