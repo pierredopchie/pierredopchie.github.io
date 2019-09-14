@@ -48,14 +48,12 @@ a:hover {
 	height: auto;
 }
 
-
-img { transition: all .2s ease-in-out; }
-img:hover { transform: scale(1.05); }
+#content img { transition: all .2s ease-in-out; }
+#content img:hover { transform: scale(1.05); }
 
 /* HEADER */
 
 #header {
-	background: transparent;
 	display: flex;
 	position: sticky;
 	top: 0;
@@ -69,8 +67,6 @@ img:hover { transform: scale(1.05); }
 	justify-content: start;
 	align-items: center;
 	background: black;
-	/* background: url(../img/header__background.jpg) no-repeat center center fixed;
-	background-size: cover; */
 }
 
 .header__wrapper {
@@ -81,14 +77,14 @@ img:hover { transform: scale(1.05); }
 	width: 100%;
 }
 
-ul {
+.nav__links ul {
     list-style: none;
     display: inline-flex;
     width: 100%;
     justify-content: space-around;
 }
 
-ul li {
+.nav__links ul li {
     color: white;
     text-transform: uppercase;
 }

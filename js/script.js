@@ -15,7 +15,7 @@ $( document ).ready(function() {
     window.onscroll = function () {
         scrollFunction()
     };
-    
+
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             $(".nav__links").backgroundColor = 'rgba(0,0,0,1)';

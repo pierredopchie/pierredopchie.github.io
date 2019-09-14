@@ -1,0 +1,67 @@
+@media screen and (min-width: 1024px)  {
+
+	/*HELPERS*/
+
+	#header {
+		display: flex;
+		left: 0;
+		right: 0;
+		z-index: 20;
+		margin: 0 auto;
+		min-height: 90px;
+		flex-direction: column;
+		justify-content: center;
+	
+	}
+
+	#header > .header__wrapper {
+		width: 100%;
+
+	}
+
+	.title {
+		min-height: 300px;
+		display: flex;
+		align-items: center;
+		padding-left: 10em;
+		background: black;
+	}
+
+	.title h1 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.title h1 span {
+		font-family: 'OPTIBerling', sans-serif;
+		color: white;
+		font-size: calc(40px + (80 - 40) * ((100vw - 320px) / (1920 - 320)));
+		font-weight: bold;
+	}
+
+	.active {
+		width: auto;
+	}
+
+	/*SECTION*/
+
+	.wrapper {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.wrapper > .wrapper__item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.photo__wrapper {
+		flex: 0 0 60%;
+	}
+
+	.content-wrapper {
+		max-width: 100%;
+		flex: 0 0 30%;
+	}
+}
