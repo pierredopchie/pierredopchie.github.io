@@ -1,0 +1,42 @@
+/* HELPERS */
+
+section#content {
+	position: relative;
+	padding-top: 0;
+    z-index: 1;
+	background-color: transparent;
+	background: url(../video/video__background.mp4) no-repeat center center fixed;
+	background-size: cover;
+	max-width: 100%;
+}
+
+/* VIDEO */
+
+#video__background {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+  
+  #pause__play {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+  }
+  
+  #pause__play:hover {
+	background: #ddd;
+	color: black;
+  }
