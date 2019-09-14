@@ -4,15 +4,6 @@
 	padding: 6em 0;
 	max-width: 80%;
 	margin: 0 auto;
-	background-color: #fff;
-	box-shadow: 0 0 25px 2px #0000000f;
-	border-radius: 20px;
-	overflow: hidden;
-	margin-bottom: 80px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 }
 
 .formations__item {
