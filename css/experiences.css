@@ -51,6 +51,7 @@
 	padding-left: 15px;
 	grid-column: 3;
 	grid-row: 1/-1;
+	cursor: pointer;
 }
 
 .title__experience {
