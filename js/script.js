@@ -7,9 +7,6 @@ jQuery(document).ready(function() {
 	}
 });
 
-
-
-
 $( document ).ready(function() {
 
     window.onscroll = function () {
@@ -23,5 +20,41 @@ $( document ).ready(function() {
             $(".nav__links").backgroundColor = "transparent";
         }
     }
+
+
+
+
+	var experienceStepsTargets = [
+		{
+			elemToHover : $(".first__step"),
+			elemTarget : $('#first__exp')
+		},
+		{
+			elemToHover : $(".second__step"),
+			elemTarget : $('#second__exp')
+		},
+		{
+			elemToHover : $(".third__step"),
+			elemTarget : $('#third__exp')
+		},
+	];
+		experienceStepsTargets.forEach(function (elem) {
+			initExpStepsHover(elem.elemToHover, elem.elemTarget);
+		});
+
+	function initExpStepsHover(elemToHover, elemTarget) {
+		elemToHover.on('mouseenter mouseleave', function(e) {
+			checkEventType(e, elemTarget);
+		});
+	}
+	function checkEventType(event, elemTarget) {
+		if (event.type === 'mouseenter')
+		{swapOpacity(elemTarget, 1);}
+		else
+		{swapOpacity(elemTarget, 0);}
+	}
+	function swapOpacity(elemToChange, opacityValue) {
+		elemToChange.toggleClass('show__div');
+	}
 
 });

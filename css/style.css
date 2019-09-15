@@ -192,7 +192,7 @@ footer#footer {
     color: #e1a87a;
 }
 
-.fa-linkedin:hover, .fa-envelope:hover, .fa-github:hover {
-    color: white;
+.fa-spin-hover:hover {
+	animation: fa-spin 0.3s  linear;
 }
 
